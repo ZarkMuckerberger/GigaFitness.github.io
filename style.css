@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background:url('img/bg-image.jpg');
+    font-family: 'Noto Serif', serif;
+}
+
+    
+
+
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: -13px;
+    padding: 0px;
+    
+    
+}
+
+.left img{
+    width: 159px;
+    height: 150px;
+}
+
+
+.mid{
+    
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+
+}
+
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 28px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+   text-decoration: underline;
+   color: red;
+}
+
+.btn{
+    margin: 0px 9px;
+    padding: 3px 4px;
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.container{
+    
+    margin: auto;
+    margin-top: 78px;
+    padding: 13px;
+    width: 43%;
+    font-size: 50px;
+}
+
+.form-group input{
+    font-size: 25px;
+    display: block;
+    margin: 12px;
+    border: black 3px solid;
+    border-radius: 5px;
+    font-family: 'Noto Serif', serif;
+
+}
+
